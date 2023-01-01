@@ -1,0 +1,17 @@
+
+
+.flex-1{
+  display: flex;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.margin-right{
+    margin-right: 2rem;
+}

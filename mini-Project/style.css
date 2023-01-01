@@ -1,0 +1,96 @@
+
+:root{
+    --primery: rgb(42, 127, 255);
+    --dark: rgb(23, 22, 22);
+    --pure: #bb091b;
+    --ternary: #434343;
+    
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: white;
+    
+}
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 800px;
+    
+}
+.btnn{
+    text-align: center;
+    margin: 1rem;
+}
+
+.main-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #bb091b;
+    text-align: center;
+    margin: 3rem;
+}
+
+.buttonnn{
+    padding: 10px 10px;
+    color: white;
+    background-color: #bb091b;
+    border-radius: 20px;
+}
+
+
+nav .left .logo{
+    margin-right: 15rem;
+}
+
+nav .left .logo h2{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 400;
+    color: black;
+
+}
+nav .left .links a{
+    padding: 15px 15px;
+    border-radius: 10px;
+    margin-right: 5rem;
+    transition: all 0.3s ease;
+}
+nav .left .links a:hover{
+    background-color: bisque;
+
+}
+nav .left .links a{
+
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 400;
+    color: black;
+}
+
+nav .right button{
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #bb091b;
+    border: 1px solid red;
+    background-color: transparent;
+    
+} 
+
+nav .right button:hover{
+    background-color: bisque;
+    
+} 
+
